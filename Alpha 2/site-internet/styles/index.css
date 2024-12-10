@@ -1,0 +1,85 @@
+body, .background-text-top-reception{
+    background-color: rgb(25, 25, 25);
+    height:5em;
+}
+.header-reception{
+	height:30em;
+	background-image: url(../images/image-reception.png);
+}
+a{
+    text-decoration: none;
+}
+.up-row, .tables-reception, .retour{
+    background-color: rgb(180, 100, 30);
+}
+.background-text-top-reception{
+	height:40%;
+	margin-left:15em;
+	margin-right:15em;
+}
+h1, h2{
+    color: white;
+    text-align: center;
+}
+.title{
+    color: rgb(180, 100, 30);
+}
+.base-table-reception{
+    height: 18em;
+}
+.tables-reception{
+    height:100%;
+    float: left;
+}	
+.tables-reception, .retour{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 32%;
+}
+.tables-reception:hover, .retour:hover{
+    background-color: rgb(200, 120, 50);
+    margin-left: 2%;
+    margin-right:1%;
+    width:30%;
+}
+.icon{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 4%;
+}
+.icon:hover{
+    margin-left: 2%;
+    margin-right:1%;
+    width:2%;
+}
+.image-table-reception{
+    width: 100%;
+}
+.text-table-reception{
+    text-align: center;
+}
+footer{
+    color: white;
+}
+p{
+	color: rgb(25, 25, 25);
+    font-size: 1.3em;
+    text-align:center;
+}
+.joke{
+    width: 4%;
+	margin-top: 1%;
+    margin-left: 1%;
+}
+.joke:hover{
+    width: 0%;
+}
+.retour{
+    border-top: 5%;
+    border-color: rgb(45, 45, 45);
+    border-bottom: 5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 32%;
+    height: 3em;
+}
