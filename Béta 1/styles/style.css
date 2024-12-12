@@ -51,7 +51,7 @@ a{text-decoration: none;}
 }
                                         /* footer */
 footer{
-    background-color: #2b2d42;
+    background-color: #1c3755;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
