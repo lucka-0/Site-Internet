@@ -1,1 +1,0 @@
-section de legal-informations.html laisse une marge à droite lorsque l'on réduit l'affichage mais pas trop

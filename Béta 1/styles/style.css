@@ -27,23 +27,23 @@ a{text-decoration: none;}
 }
                                         /* header-searchbar */
 .header_searchbar-container{
-    display: grid;
-    grid-template-columns: repeat(200);
+    display: flex;
     margin: 25px 160px 100px 160px;
+    /* height: 100px; */
 }
 .header_searchbar{
-    grid-column: 1 / 200;
+    flex: 1 1 auto;
     background-color: #edf2f4;
-    font-size: 50px;
-    padding: 0 20px 0 20px;
+    font-size: 42px;
+    padding: 5px 20px;
     border: 0px;
 }
 .header_searchbar:focus{outline: none;}
 .header_searchbar-logo{
-    height: 60px; width: auto;
+    flex: 1 1 auto;
     padding: 20px;
-    grid-column: 200;
     background-color: #edf2f4;
+    height: auto; max-width: 60px;
 }
                                         /* page */
 .main-page{
