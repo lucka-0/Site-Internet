@@ -1,6 +1,10 @@
-body, div, nav, p, section{margin: 0%;}
+*{margin: 0%;}
 body{background: linear-gradient(0.25turn, #1c3755, #396ea4);}
 p, a{font-family: sans-serif;}
+*::selection{
+    background-color: #8d99ae;
+    color: #edf2f4;
+}
 a{text-decoration: none;}
                                         /* header */
 .header_navbar-container{
